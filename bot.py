@@ -106,8 +106,8 @@ async def start(bot, cmd):
 						InlineKeyboardButton("Channel📣", url="https://t.me/VKPROJECTS")
 					],
 					[
-						InlineKeyboardButton("About👨🏻‍🎓", callback_data="aboutbot"),
-						InlineKeyboardButton("⚙️Help", callback_data="aboutdevs")
+						InlineKeyboardButton("About🤖", callback_data="aboutbot"),
+						InlineKeyboardButton("About Dev👨🏻‍🎓", callback_data="aboutdevs")
 					]
 				]
 			)
@@ -326,8 +326,8 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("Channel📣", url="https://t.me/VKPROJECTS")
 					],
 					[
-						InlineKeyboardButton("About👨🏻‍🎓", callback_data="aboutbot"),
-						InlineKeyboardButton("⚙️Help", callback_data="aboutdevs")
+						InlineKeyboardButton("About🤖", callback_data="aboutbot"),
+						InlineKeyboardButton("About DEV👨🏻‍🎓", callback_data="aboutdevs")
 					]
 				]
 			)
